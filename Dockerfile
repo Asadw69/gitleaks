@@ -9,5 +9,4 @@ RUN apk add --no-cache bash git openssh-client
 COPY --from=build /go/src/github.com/zricethezav/gitleaks/bin/* /usr/bin/
 
 RUN git config --global --add safe.directory '*'
-
 ENTRYPOINT ["gitleaks"]
