@@ -18,6 +18,7 @@
   "RuleID": "pypi-upload-token",
   "Fingerprint": "9326f35380636bcbe61e94b0584d1618c4b5c2c2:detect/detect_test.go:pypi-upload-token:32"
  },
+ 
  {
   "Description": "PyPI upload token",
   "StartLine": 33,
