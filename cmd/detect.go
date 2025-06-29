@@ -1,20 +1,3 @@
-// The `detect` and `protect` command is now deprecated. Here are some equivalent commands
-// to help guide you.
-
-// OLD CMD: gitleaks detect --source={repo}
-// NEW CMD: gitleaks git {repo}
-
-// OLD CMD: gitleaks protect --source={repo}
-// NEW CMD: gitleaks git --pre-commit {repo}
-
-// OLD  CMD: gitleaks protect --staged --source={repo}
-// NEW CMD: gitleaks git --pre-commit --staged {repo}
-
-// OLD CMD: gitleaks detect --no-git --source={repo}
-// NEW CMD: gitleaks directory {directory/file}
-
-// OLD CMD: gitleaks detect --no-git --pipe
-// NEW CMD: gitleaks stdin
 
 package cmd
 
