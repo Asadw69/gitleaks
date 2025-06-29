@@ -3,8 +3,6 @@
 import os
 import sys
 import subprocess
-
-
 def gitleaksEnabled():
     """Determine if the pre-commit hook for gitleaks is enabled."""
     out = subprocess.getoutput("git config --bool hooks.gitleaks")
